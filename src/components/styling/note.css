@@ -1,0 +1,47 @@
+.note_div{
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+.h1_tag{
+    background-color: white;
+    color: black;
+    height: 20%;
+    width: auto;
+    margin: 0%;
+    padding: 1%;
+    border-color: black;
+    text-align: center;
+    word-wrap: break-word;
+}
+.p_tag{
+    background-color: white;
+    color: black; 
+    width: auto;
+    height: 80%;
+    padding: 2%;
+    border-color: black;
+    text-align:center;
+    text-justify: auto;
+    word-wrap:break-word;
+    display:inline-block ;
+    position: relative;
+}
+.adjustBtn{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    color:orangered;
+    border: 0ch;
+    width: 20%;
+    height: 30%;
+    cursor: pointer;
+}
+.Btn{
+    transform: scale(1.5);
+}
